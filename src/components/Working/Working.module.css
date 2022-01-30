@@ -12,7 +12,7 @@
 }
 
 .wrapper {
-  max-width: 1080px;
+  max-width: 1150px;
   margin: 50px auto;
   padding: 0 20px;
 }
@@ -35,7 +35,7 @@
   background: #fff;
   width: calc(50% - 40px);
   position: relative;
-  padding: 15px 0;
+  padding: 30px;
 }
 
 #row1 {
@@ -45,7 +45,6 @@
 #row1 section {
   border-right: 5px solid #ddd;
   box-shadow: 0 0 60px rgb(0 0 0 / 8%);
-  padding-right: 30px;
 }
 
 #row2 {
