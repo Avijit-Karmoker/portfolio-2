@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
+#do {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.doText p {
+  font-size: 30px;
+  text-align: center;
+  color: #8F7979;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.service p {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 30px;
+  color: #414141;
+  margin-bottom: 70px;
+  font-family: 'Arbutus Slab', serif;
+}
+
+.iconDiv {
+  position: relative;
+  width: 305px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ef233c;
+  background: #fff;
+}
+
+.icon {
+  position: relative;
+  font-size: 60px;
+  color: #ef233c;
+  transition: 0.3s;
+}
+
+#knowledge:hover .icon {
+  font-size: 75px;
+}
+
+.details {
+  margin-right: 30px;
+  padding-left: 5%;
+  min-height: 150px;
+  position: relative;
+  align-items: center;
+  box-shadow: inset 0 0 0 0 transparent;
+  transition: ease-in-out 0.5s;
+}
+
+.details h3 {
+  padding-top: 25px;
+}
+
+.details p {
+  padding-right: 20px;
+}
+
+#knowledge:hover .details {
+  box-shadow: inset 800px 0 0 0 #ef233c;
+  color: #fff;
+}

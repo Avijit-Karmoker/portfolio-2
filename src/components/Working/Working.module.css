@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
+
+#top h1{
+  font-weight: bold;
+  color: #414141;
+  font-family: 'Arbutus Slab', serif;
+}
+
+#top h4{
+  color: #868886;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.wrapper .centerLine {
+  position: absolute;
+  height: 720px;
+  width: 2px;
+  background: red;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wrapper .row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wrapper .row section {
+  background: #fff;
+  width: calc(50% - 40px);
+  position: relative;
+  padding: 15px 0;
+}
+
+#row1 {
+  justify-content: flex-start;
+}
+
+#row1 section {
+  border-right: 5px solid #ddd;
+  box-shadow: 0 0 60px rgb(0 0 0 / 8%);
+  padding-right: 30px;
+}
+
+#row2 {
+  justify-content: flex-end;
+}
+
+#row2 section {
+  border-left: 5px solid #ddd;
+  box-shadow: 0 0 60px rgb(0 0 0 / 8%);
+  padding-left: 30px;
+}
+
+.wrapper .row section::before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 15px;
+  background: #dddddd;
+  top: 40px;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+
+.wrapper .row section::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 41px;
+  right: -53px;
+  background: #fff;
+  border: 2px solid #ef233c;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.wrapper .row .section2::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 48px;
+  left: -53px;
+  background: #fff;
+  border: 2px solid #ef233c;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+#row1 section::before {
+  right: -7px;
+}
+
+#row2 section::before {
+  left: -7px;
+}
+
+.row section .details,
+.row section .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row section .details .title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.row section p {
+  margin: 10px 0 17px 0;
+}
+
+.row section .bottom a {
+  text-decoration: none;
+  background: #ff7979;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 400px;
+}

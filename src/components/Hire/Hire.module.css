@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
+
+.hireMe {
+  background: #ef233c;
+  text-align: center;
+  height: 450px;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+}
+
+.container h5 {
+  color: #414141;
+  padding-top: 12%;
+  text-transform: uppercase;
+}
+
+.container h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Arbutus Slab", serif;
+  font-weight: 700;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+.container h1 .special {
+  color: #414141;
+}
+
+.container p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.priceButton {
+  text-decoration: none;
+  color: #ef233c;
+  background: #fff;
+  box-shadow: inset 0 0 0 50px #ffffff;
+  padding: 12px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  letter-spacing: 1px;
+  border-radius: 0;
+  transition: ease-out 0.3s;
+}
+
+.priceButton:hover {
+  color: #fff;
+  background: transparent;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  border-color: #fff;
+}

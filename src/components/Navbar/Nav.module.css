@@ -1,0 +1,16 @@
+#navItem{
+  font-weight: 600 !important;
+  color: #fff;
+  font-size: 18px;
+}
+
+#navItem:hover{
+  color: rgb(0, 0, 0);
+  transition: .2s;
+  transform: scale(110%);
+}
+
+#logo img {
+  width: 180px;
+  height: 66px;
+}
