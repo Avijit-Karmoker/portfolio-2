@@ -1,0 +1,52 @@
+.icon ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.icon ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.icon ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.icon ul li a:hover {
+  color: #000;
+}
+
+#mainFooter {
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+#mainFooter h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-bottom: 15px;
+}
+
+#mainFooter p {
+  font-size: 20px;
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+}
+
+.address p{
+    margin-bottom: 0 !important;
+}
+
+.address .bar{
+    margin: 0 20px;
+    border-right: 2px solid #fff;
+}

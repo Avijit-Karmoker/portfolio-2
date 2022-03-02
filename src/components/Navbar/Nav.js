@@ -26,13 +26,13 @@ const Nav = () => {
       <div style={{ borderBottom: "1px dashed #fff" }}>
         <div className={`${stickyClass}`}>
           <div className="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="container-fluid p-0">
-                <a class="navbar-brand" href="/" id={styles.logo}>
+            <nav className="navbar navbar-expand-lg navbar-light">
+              <div className="container-fluid p-0">
+                <a className="navbar-brand" href="/" id={styles.logo}>
                   <img src={Logo} alt="Logo" />
                 </a>
                 <button
-                  class="navbar-toggler"
+                  className="navbar-toggler"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarNav"
@@ -40,13 +40,13 @@ const Nav = () => {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span class="navbar-toggler-icon"></span>
+                  <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarNav">
+                  <ul className="navbar-nav ms-auto">
+                    <li className="nav-item">
                       <a
-                        class="nav-link active"
+                        className="nav-link active"
                         id={styles.navItem}
                         aria-current="page"
                         href="/"
@@ -54,47 +54,47 @@ const Nav = () => {
                         Home
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id={styles.navItem} href="#about">
+                    <li className="nav-item">
+                      <a className="nav-link" id={styles.navItem} href="#about">
                         About
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id={styles.navItem} href="#service">
+                    <li className="nav-item">
+                      <a className="nav-link" id={styles.navItem} href="#service">
                         Service
                       </a>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                       <a
-                        class="nav-link"
+                        className="nav-link"
                         id={styles.navItem}
                         href="#experience"
                       >
                         Experience
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id={styles.navItem} href="#resume">
+                    <li className="nav-item">
+                      <a className="nav-link" id={styles.navItem} href="#resume">
                         Resume
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id={styles.navItem} href="#review">
+                    <li className="nav-item">
+                      <a className="nav-link" id={styles.navItem} href="#review">
                         Review
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id={styles.navItem} href="#team">
+                    <li className="nav-item">
+                      <a className="nav-link" id={styles.navItem} href="#team">
                         Team
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id={styles.navItem} href="#blog">
+                    <li className="nav-item">
+                      <a className="nav-link" id={styles.navItem} href="#blog">
                         Blog
                       </a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id={styles.navItem} href="#contact">
+                    <li className="nav-item">
+                      <a className="nav-link" id={styles.navItem} href="#contact">
                         Contact
                       </a>
                     </li>

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
+
+.articles {
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.articles h5,
+h1 {
+  font-weight: 600;
+}
+
+.articles h1 {
+  font-family: "Arbutus Slab", serif;
+  font-size: 45px;
+}
+
+.image img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  border-radius: 4px 4px 0 0;
+}
+
+.blog {
+  margin: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  height: 650px;
+  border-radius: 4px;
+}
+
+.blogTitles h4 {
+  font-weight: 600;
+}
+
+.button {
+  width: 130px;
+}
+
+.button a{
+  text-decoration: none;
+  color: #fff;
+  background: #ef233c;
+  box-shadow: inset 0 0 0 50px #ef233c;
+  padding: 8px 20px;
+  font-size: 16px;
+  /* font-weight: 600; */
+  border: 2px solid transparent;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  bottom: 0;
+}
+
+.button:hover a{
+  color: #ef233c;
+  background: transparent;
+  box-shadow: inset 0 0 0 0 #ef233c;
+  border-color: #ef233c;
+}

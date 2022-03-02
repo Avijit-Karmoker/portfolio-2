@@ -3,8 +3,8 @@ import design from "../../images/webDesign.png";
 import development from "../../images/WebDevelopment.png";
 import youtube from "../../images/youtuber.png";
 import digital from "../../images/Digital.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import styles from "./Portfolio.module.css"
 
 const Portfolio = () => {
@@ -12,16 +12,16 @@ const Portfolio = () => {
     <section>
       <div className="container text-center">
         <div>
-          <h5>My Portfolio</h5>
-          <h1>My Excellent Portfolio</h1>
+          <h5 className={styles.title}>My Portfolio</h5>
+          <h1 className={styles.excellentPortfolio}>My Excellent Portfolio</h1>
         </div>
-        <div>
-          <button>All</button>
-          <button>Web Design</button>
-          <button>Web Development</button>
-          <button>Digital Marketer</button>
+        <div className={styles.buttonGroup}>
+          <button className={styles.all}>All</button>
+          <button className={styles.design}>Web Design</button>
+          <button className={styles.developer}>Web Development</button>
+          <button className={styles.marketer}>Digital Marketer</button>
         </div>
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-md-6 col-sm-12 position-relative">
             <div className={styles.image}>
               <img src={design} alt="Web Design" />
